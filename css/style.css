@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    background-color: rgb(106, 90, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: min(80%,300px);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.month{
+    padding:10px;
+    background-color: #FF4500;
+    font-size: 30px;
+    color:#fff;
+    font-weight: 700;
+}
+.day{
+    margin: 20px auto;
+    color:#a9a9a9;
+    font-size: 20px;
+}
+.date{
+    font-size: 80px;
+    font-weight: 700;
+}
+.year{
+    margin:20px auto;
+    font-size: 20px;
+    color:#a9a9a9;
+}
